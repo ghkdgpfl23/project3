@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>젝시믹스</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reset.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/main.js"></script>
+<script>
+$(function(){
+	$('.bxslider').bxSlider({
+		mode: "horizontal",
+		auto: true,
+		autoHover: true
+		//captions: true
+		//autoControls: true,
+		//pager: true
+		//slideWidth: 600
+	 });
+});
+</script>
+<style>
+.keyvisual .bx-wrapper .bx-controls-direction a.bx-prev {
+	margin-top: -60px;
+	width: 44px;
+	height: 86px;
+	background: url(images/btn_left.png);
+}
+.keyvisual .bx-wrapper .bx-controls-direction a.bx-next {
+	margin-top: -60px;
+	width: 44px;
+	height: 86px;
+	background: url(images/btn_right.png);
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div id="skip_navi" class="skip_navi">
+		<div class="skip_wrap">
+			<a href="#section1">본문 내용 바로가기</a>
+			<a href="#nav">주 메뉴 바로가기</a>
+		</div>
+	</div>
+	<div class="popup">
+		<a href="" class="pop">팝업</a>
+		<div class="text">
+			<div class="top"><a href="" class="close">닫기</a></div>
+			<form>
+				<label>
+					<input type="checkbox" name="todayClose"><span>오늘 하루 그만보기</span>
+				</label>
+			</form>
+		</div>
+	</div>
+	<header id="header">
+		<div class="upper">
+			<div class="logo"><!-- 수정, 항상 로고 먼저 -->
+				<h1 id="logo">
+					<a href=""><img src="images/logo.png" alt="로고"></a>
+				</h1>
+			</div>
+			<div class="icon_area">
+				<ul>
+					<li>
+						<a href="">
+							<img class="over" src="images/social_icon1_1.png" alt="페이스북">
+							<img src="images/social_icon1.gif" alt="페이스북">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="over" src="images/social_icon2_1.png" alt="블로그">
+							<img src="images/social_icon2.gif" alt="블로그">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="over" src="images/social_icon3_1.png" alt="카카오">
+							<img src="images/social_icon3.gif" alt="카카오">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="over" src="images/mileage_ov.png" alt="mileage">
+							<img src="images/btn_mileage.gif" alt="mileage">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="location">
+				<ul>
+					<li><a href="">LOGIN</a></li>
+					<li><a href="">JOIN</a></li>
+					<li><a href="">개인정보취급방침</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="menu">
+			<nav id="GNB">
+				<ul>
+					<li>
+						<a href="">TOPS</a>
+						<ul class="sub">
+							<li><a href="">All</a></li>
+							<li><a href="">Top</a></li>
+							<li><a href="">Tanks</a></li>
+							<li><a href="">Outer</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">BOTTOMS</a>
+						<ul class="sub">
+							<li><a href="">All</a></li>
+							<li><a href="">Crops</a></li>
+							<li><a href="">Longs</a></li>
+							<li><a href="">Shorts</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">ATHLEISURE</a>
+						<ul class="sub">
+							<li><a href="">All</a></li>
+							<li><a href="">Outer</a></li>
+							<li><a href="">Top</a></li>
+							<li><a href="">Bottoms</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">ACCESSORIES</a>
+						<ul class="sub">
+							<li><a href="">All</a></li>
+							<li><a href="">Inner Wear</a></li>
+							<li><a href="">Socks</a></li>
+							<li><a href="">Yoga mat</a></li>
+							<li><a href="">Etc</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">SALE</a>
+						<ul class="sub">
+							<li><a href="">SALE</a></li>
+							<li><a href="">SALE EVENT</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">COMMUNITY</a>
+						<ul class="sub">
+							<li><a href="">공지사항</a></li>
+							<li><a href="">고객만족센터</a></li>
+							<li><a href="">실시간포토리뷰</a></li>
+							<li><a href="">WEBZINE</a></li>
+							<li><a href="">EVENT</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="keyvisual">
+			<div class="bxslider">
+				<div><a href=""><img src="images/key1.jpg" title="first title"></a></div>
+				<div><a href=""><img src="images/key2.jpg" title="second title"></a></div>
+				<div><a href=""><img src="images/key3.jpg" title="third title"></a></div>
+				<div><a href=""><img src="images/key4.jpg" title="fourth title"></a></div>
+				<div><a href=""><img src="images/key5.jpg" title="fifth title"></a></div>
+				<div><a href=""><img src="images/key6.jpg" title="sixth title"></a></div>
+			</div>
+		</div>
+	</header>
+
+	<div class="banner_list1" id="section1">
+		<div class="tanktop">
+			<div class="tanktop_img">
+				<!-- <a href=""><img src="images/tanktop.png" alt="배너1"></a> -->
+				<a href="" class="control">control</a>
+				<video id="my_video" src="video/hd_open_0723.mp4" muted></video>
+			</div>
+			<div class="tanktop_text">
+				<a href="">
+					<!-- <h4>AIR COTTON TACKTOP</h4> -->
+					<!-- <span>MID-FLEXY</span> -->
+					<!-- <p>Get a performance <br>and style</p> -->
+					<h4>XEXYMIX FIT STORE<br>IN HONGDAE</h4>
+					<p>젝시믹스 홍대 핏스토어</p>
+					<span class="button">view more</span>
+				</a>
+			</div>
+		</div>
+		<div class="hood">
+			<div class="hood_text">
+				<a href="">
+					<h4>Napping Hood Zip-up</h4>
+					<span>CROP STYLE</span>
+					<p>Stylish fit<br>to completes winter</p>
+					<span class="button">view more</span>
+				</a>
+			</div>
+			<div class="hood_img">
+				<a href=""><img src="images/atclip.png" alt="배너2"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner2">
+		<div class="banner_list2">
+			<div class="cella_zone">
+				<a href="" class="cella">
+					<img src="images/cella_vup.png" alt="cella">
+					<div class="cella_txt">
+						<span class="button">view more</span>
+					</div>
+				</a>
+			</div>
+			<div class="new_zone">
+				<a href="" class="new">
+					<img src="images/new.png" alt="new">
+					<div class="new_txt">
+						<h4>new</h4>
+						<p>new in this week</p>
+						<span class="button">view more</span>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="banner_list3">
+			<div class="sale_zone">
+				<a href="" class="sale">
+					<div class="sale_txt">
+						<h4>sale</h4>
+						<p>다양하고 특별한 할인 혜택을 만나보세요.</p>
+						<span class="button">view more</span>
+					</div>
+				</a>
+			</div>
+			<div class="highflexy_zone">
+				<a href="" class="highflexy">
+					<img src="images/highflexy.png" alt="highflexy">
+					<div class="highflexy_txt">
+						<p>BLACK LABEL</p>
+						<h4>HIGH FLEXY</h4>
+						<span class="button">view more</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<footer id="footer">
+		<div class="foot_inner">
+			<div class="address">
+				<p>㈜브랜드엑스코퍼레이션 대표자 : 이수연 서울특별시 성동구 뚝섬로1길63 영창디지탈타워 6층</p>
+				<a href=""><img src="images/private_ot.png" alt="개인정보취급방침"></a>
+			</div>
+			<div class="foot_icon">
+				<ul>
+					<li><a href=""><img src="images/facebook_ot.png" alt="facebook"></a></li>
+					<li><a href=""><img src="images/blog_ot.png" alt="blog"></a></li>
+					<li><a href=""><img src="images/kakao_ot.png" alt="kakao"></a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<p>copyright(c) 2015 Xexymix All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
